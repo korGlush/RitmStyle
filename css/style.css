@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+html{
+    background-color: #162831;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.header{
+    padding-top: 30px;
+}
+
+.header-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
